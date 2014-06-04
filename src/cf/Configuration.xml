@@ -44,8 +44,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
+			<Vendor>NikitaGryzlov</Vendor>
+			<Version>0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
