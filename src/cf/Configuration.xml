@@ -127,6 +127,7 @@
 			<Enum>BorderTypes</Enum>
 			<Enum>CardTypes</Enum>
 			<Enum>SetTypes</Enum>
+			<Enum>LayoutTypes</Enum>
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
 			<InformationRegister>SetBoosterComposition</InformationRegister>
 		</ChildObjects>

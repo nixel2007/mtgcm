@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="3abebd76-cee9-4359-a94c-1798b9dab0cb">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.LayoutTypes" category="Ref">
+				<xr:TypeId>dedec827-1ccb-4228-8901-4cc688185794</xr:TypeId>
+				<xr:ValueId>d136094b-6324-4490-9c49-99645f07d4c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.LayoutTypes" category="Manager">
+				<xr:TypeId>f1b7c356-e7fe-437f-9a64-918ac13532a7</xr:TypeId>
+				<xr:ValueId>e1bee7ef-5ad9-4638-bb89-e0dbe09c9285</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.LayoutTypes" category="List">
+				<xr:TypeId>ce7635bb-49ec-49f2-a7ae-382e3cef8706</xr:TypeId>
+				<xr:ValueId>78e86edf-ba31-4539-afa0-38866db584aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>LayoutTypes</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Layout types</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="daa4a16a-8f34-453a-bb6a-e3dcf8967202">
+				<Properties>
+					<Name>Normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Normal</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cf693db0-b714-4a11-b048-e33d1888524a">
+				<Properties>
+					<Name>Split</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Split</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4229a0eb-232c-4077-b1c3-01eb323070fa">
+				<Properties>
+					<Name>Flip</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Flip</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bb2f7872-7bac-4a43-9ffe-2acf8eb72da3">
+				<Properties>
+					<Name>DoubleFaced</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Double-faced</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c0a74e0c-5f8b-42f0-8335-58f7160ac473">
+				<Properties>
+					<Name>Token</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Token</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="110353e2-19ab-4e1b-9da2-9ff884f9b49a">
+				<Properties>
+					<Name>Plane</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Plane</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="51874c51-f29c-4f1c-a4dd-ed1078543164">
+				<Properties>
+					<Name>Scheme</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Scheme</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="337b9dcd-226f-4833-b8f4-2bcb55fa386a">
+				<Properties>
+					<Name>Phenomenon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Phenomenon</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="60e97ebf-257c-44bf-b2af-d0eee5e4e644">
+				<Properties>
+					<Name>Leveler</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Leveler</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0e538e37-9fe4-43f6-8a5c-6ba5c8e1d0a7">
+				<Properties>
+					<Name>Vanguard</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Vanguard</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
