@@ -2,7 +2,7 @@
 &НаСервере
 Процедура UpdateCardImageНаСервере()
 	
-	CardImageData = MTGImage.GetMTGData(Object.Multiverseid);
+	CardImageData = MTGImage.GetMTGData(Object.Code);
 	
 	CardImagesRecordManager = InformationRegisters.CardImages.CreateRecordManager();
 	CardImagesRecordManager.Card 	= Object.Ref;

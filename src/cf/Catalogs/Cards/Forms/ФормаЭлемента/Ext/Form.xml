@@ -96,12 +96,6 @@
 			<ContextMenu name="LoyaltyКонтекстноеМеню" id="41"/>
 			<ExtendedTooltip name="LoyaltyРасширеннаяПодсказка" id="42"/>
 		</InputField>
-		<InputField name="Multiverseid" id="43">
-			<DataPath>1/0:86c8e434-9b03-432e-a0aa-332efe2a916b</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="MultiverseidКонтекстноеМеню" id="44"/>
-			<ExtendedTooltip name="MultiverseidРасширеннаяПодсказка" id="45"/>
-		</InputField>
 		<InputField name="ImageName" id="46">
 			<DataPath>Object.ImageName</DataPath>
 			<EditMode>EnterOnInput</EditMode>
