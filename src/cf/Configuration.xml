@@ -119,6 +119,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>JSON</CommonModule>
+			<Constant>JSONDBVersion</Constant>
 			<Catalog>Sets</Catalog>
 			<Enum>BorderType</Enum>
 			<Enum>CardType</Enum>
