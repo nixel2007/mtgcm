@@ -130,6 +130,7 @@
 			<Enum>LayoutTypes</Enum>
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
 			<InformationRegister>SetBoosterComposition</InformationRegister>
+			<InformationRegister>CardImages</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

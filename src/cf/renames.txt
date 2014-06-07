@@ -20,5 +20,6 @@ Enums\BorderTypes.xml-->Enums\BorderTypes.xml
 Enums\CardTypes.xml-->Enums\CardTypes.xml
 Enums\LayoutTypes.xml-->Enums\LayoutTypes.xml
 Enums\SetTypes.xml-->Enums\SetTypes.xml
+InformationRegisters\CardImages.xml-->InformationRegisters\CardImages.xml
 InformationRegisters\SetBoosterComposition.xml-->InformationRegisters\SetBoosterComposition.xml
 Languages\Русский.xml-->Languages\Русский.xml
