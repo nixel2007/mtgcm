@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="95b2a74d-87d4-49e3-b93d-bf32d0ee7e08">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.CardType" category="Ref">
+				<xr:TypeId>549dc238-2be3-4e15-9d62-93298a3328ea</xr:TypeId>
+				<xr:ValueId>f15aa847-f960-4531-ae72-2afa3b0da87e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.CardType" category="Manager">
+				<xr:TypeId>8b99f347-a223-4404-9875-20ce9df6eba2</xr:TypeId>
+				<xr:ValueId>c617d3d6-35d6-410e-9c6b-ab39ecbcafaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.CardType" category="List">
+				<xr:TypeId>541983d2-d6d9-4ddf-ae41-ff0d8cf164bc</xr:TypeId>
+				<xr:ValueId>31a056e5-0f21-470b-a827-045cbc157efc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CardType</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Card type</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e453e844-dc5b-47ac-966d-3129cc10d096">
+				<Properties>
+					<Name>Common</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Common</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="17e0fa6c-7504-4ef7-bd91-33490fbf5eb2">
+				<Properties>
+					<Name>Uncommon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Uncommon</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d684e808-0255-4c84-b3e6-eef7f9607685">
+				<Properties>
+					<Name>Rare</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21bcd15b-92b0-4b4b-862a-746a18aca758">
+				<Properties>
+					<Name>MythicRare</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mythic rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9b21e2da-e75a-418e-b01e-a338c6fa3ee0">
+				<Properties>
+					<Name>Land</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Land</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cc370ed3-aeb7-4b8f-ba15-a3518edba481">
+				<Properties>
+					<Name>Marketing</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Marketing</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="22653681-93ec-4a96-b79d-7a0040cc6255">
+				<Properties>
+					<Name>Checklist</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Checklist</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9c42189b-d02d-43a1-ae63-55321b7456bf">
+				<Properties>
+					<Name>DoubleFaced</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Double faced</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bc17351c-3503-4b5d-a26f-93f17caae375">
+				<Properties>
+					<Name>TimeshiftedCommon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Timeshifted common</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Timeshifted set only</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5ec48e4-af33-4e3d-875a-9e6f4975acbd">
+				<Properties>
+					<Name>TimeshiftedUncommon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Timeshifted uncommon</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fe550f8d-5cb5-4606-83ee-811123038fc1">
+				<Properties>
+					<Name>TimeshiftedRare</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Timeshifted rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6b4b96e9-d015-435a-9c83-040fba7d3639">
+				<Properties>
+					<Name>TimeshiftedPurple</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Timeshifted purple</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e5a69459-4ab1-49dd-b5c0-67e30ccca521">
+				<Properties>
+					<Name>FoilCommon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Foil common</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Modern Masters set only</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21dfbc73-0443-48fa-85c1-639bdfe22ec1">
+				<Properties>
+					<Name>FoilUncommon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Foil uncommon</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Modern Masters set only</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5a54e87d-80c6-4690-9294-5d8d672f05ee">
+				<Properties>
+					<Name>FoilRare</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Foil rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Modern Masters set only</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fcd31f71-fff3-4f00-9297-8fc0b4d41f6f">
+				<Properties>
+					<Name>FoilMythicRare</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Foil mythic rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Modern Masters set only</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

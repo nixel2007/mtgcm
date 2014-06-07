@@ -118,6 +118,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>JSON</CommonModule>
+			<Catalog>Sets</Catalog>
+			<Enum>BorderType</Enum>
+			<Enum>CardType</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
