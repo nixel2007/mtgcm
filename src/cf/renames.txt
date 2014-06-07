@@ -5,4 +5,5 @@ CommonModules\JSON\Ext\Module.bsl-->CommonModules\JSON\Ext\Module.bsl
 Constants\JSONDBVersion.xml-->Constants\JSONDBVersion.xml
 Enums\BorderType.xml-->Enums\BorderType.xml
 Enums\CardType.xml-->Enums\CardType.xml
+Enums\SetType.xml-->Enums\SetType.xml
 Languages\Русский.xml-->Languages\Русский.xml

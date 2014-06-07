@@ -123,6 +123,7 @@
 			<Catalog>Sets</Catalog>
 			<Enum>BorderType</Enum>
 			<Enum>CardType</Enum>
+			<Enum>SetType</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
