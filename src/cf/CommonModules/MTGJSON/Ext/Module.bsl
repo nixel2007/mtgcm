@@ -10,6 +10,15 @@
 	
 	Data = JSON.ReadJSON(DataText);	
 	
+	DataReader.Close();
+	
+	Try
+		DeleteFiles(DataTempFile);
+	Except
+		Raise ErrorDescription(); 	
+	EndTry;
+
+	
 	Return Data;
 	
 EndFunction
