@@ -95,7 +95,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.SetType</v8:Type>
+						<v8:Type>cfg:EnumRef.SetTypes</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -134,7 +134,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.BorderType</v8:Type>
+						<v8:Type>cfg:EnumRef.BorderTypes</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

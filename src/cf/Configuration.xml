@@ -119,11 +119,15 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>JSON</CommonModule>
+			<CommonModule>MTGJSON</CommonModule>
+			<CommonModule>GeneralPurpose</CommonModule>
 			<Constant>JSONDBVersion</Constant>
 			<Catalog>Sets</Catalog>
-			<Enum>BorderType</Enum>
-			<Enum>CardType</Enum>
-			<Enum>SetType</Enum>
+			<Enum>BorderTypes</Enum>
+			<Enum>CardTypes</Enum>
+			<Enum>SetTypes</Enum>
+			<DataProcessor>ЗагрузитьСет</DataProcessor>
+			<InformationRegister>SetBoosterComposition</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
