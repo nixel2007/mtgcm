@@ -121,6 +121,7 @@
 			<CommonModule>JSON</CommonModule>
 			<CommonModule>MTGJSON</CommonModule>
 			<CommonModule>GeneralPurpose</CommonModule>
+			<CommonModule>MTGImage</CommonModule>
 			<Constant>JSONDBVersion</Constant>
 			<Catalog>Sets</Catalog>
 			<Catalog>Cards</Catalog>

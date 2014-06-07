@@ -7,9 +7,11 @@ Catalogs\Sets\Ext\ManagerModule.bsl-->Catalogs\Sets\Ext\ManagerModule.bsl
 Catalogs\Sets\Ext\ObjectModule.bsl-->Catalogs\Sets\Ext\ObjectModule.bsl
 CommonModules\GeneralPurpose.xml-->CommonModules\GeneralPurpose.xml
 CommonModules\JSON.xml-->CommonModules\JSON.xml
+CommonModules\MTGImage.xml-->CommonModules\MTGImage.xml
 CommonModules\MTGJSON.xml-->CommonModules\MTGJSON.xml
 CommonModules\GeneralPurpose\Ext\Module.bsl-->CommonModules\GeneralPurpose\Ext\Module.bsl
 CommonModules\JSON\Ext\Module.bsl-->CommonModules\JSON\Ext\Module.bsl
+CommonModules\MTGImage\Ext\Module.bsl-->CommonModules\MTGImage\Ext\Module.bsl
 CommonModules\MTGJSON\Ext\Module.bsl-->CommonModules\MTGJSON\Ext\Module.bsl
 Constants\JSONDBVersion.xml-->Constants\JSONDBVersion.xml
 DataProcessors\ЗагрузитьСет.xml-->DataProcessors\ЗагрузитьСет.xml
