@@ -1,6 +1,8 @@
 ﻿Configuration.xml-->Configuration.xml
 Catalogs\Cards.xml-->Catalogs\Cards.xml
 Catalogs\Sets.xml-->Catalogs\Sets.xml
+Catalogs\Cards\Ext\ManagerModule.bsl-->Catalogs\Cards\Ext\ManagerModule.bsl
+Catalogs\Cards\Ext\ObjectModule.bsl-->Catalogs\Cards\Ext\ObjectModule.bsl
 Catalogs\Sets\Ext\ManagerModule.bsl-->Catalogs\Sets\Ext\ManagerModule.bsl
 Catalogs\Sets\Ext\ObjectModule.bsl-->Catalogs\Sets\Ext\ObjectModule.bsl
 CommonModules\GeneralPurpose.xml-->CommonModules\GeneralPurpose.xml
