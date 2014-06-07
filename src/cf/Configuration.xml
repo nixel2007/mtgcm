@@ -123,6 +123,7 @@
 			<CommonModule>GeneralPurpose</CommonModule>
 			<Constant>JSONDBVersion</Constant>
 			<Catalog>Sets</Catalog>
+			<Catalog>Cards</Catalog>
 			<Enum>BorderTypes</Enum>
 			<Enum>CardTypes</Enum>
 			<Enum>SetTypes</Enum>
