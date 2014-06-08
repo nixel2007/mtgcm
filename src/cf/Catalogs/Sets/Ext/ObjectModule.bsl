@@ -37,37 +37,40 @@
 	// Booster data
 	BoosterData = SetData.Get("booster");
 	
-	BoosterRecordSet = InformationRegisters.SetBoosterComposition.CreateRecordSet();
-	BoosterRecordSet.Filter.Set.Set(ThisObject.Ref);
-	
-	index = 1;
-	
-	For Each BoosterPositionData In BoosterData Do
+	// Not all sets have boosters
+	If NOT BoosterData = Undefined Then
+		BoosterRecordSet = InformationRegisters.SetBoosterComposition.CreateRecordSet();
+		BoosterRecordSet.Filter.Set.Set(ThisObject.Ref);
 		
-		If TypeOf(BoosterPositionData) = Type("Array") Then
+		index = 1;
+		
+		For Each BoosterPositionData In BoosterData Do
 			
-			For Each BosterCardTypeData In BoosterPositionData Do
-				BoosterCard = BoosterRecordSet.Add();
-			
-				BoosterCard.Set 		= ThisObject.Ref;
-				BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BosterCardTypeData);
-				BoosterCard.CardNumber	= index;					
+			If TypeOf(BoosterPositionData) = Type("Array") Then
 				
-			EndDo;
+				For Each BosterCardTypeData In BoosterPositionData Do
+					BoosterCard = BoosterRecordSet.Add();
+				
+					BoosterCard.Set 		= ThisObject.Ref;
+					BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BosterCardTypeData);
+					BoosterCard.CardNumber	= index;					
+					
+				EndDo;
+				
+			Else
+				BoosterCard = BoosterRecordSet.Add();
+				
+				BoosterCard.Set 		= ThisObject.Ref;
+				BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BoosterPositionData);
+				BoosterCard.CardNumber	= index;
+			EndIf;
 			
-		Else
-			BoosterCard = BoosterRecordSet.Add();
+			index = index + 1;
 			
-			BoosterCard.Set 		= ThisObject.Ref;
-			BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BoosterPositionData);
-			BoosterCard.CardNumber	= index;
-		EndIf;
+		EndDo;
 		
-		index = index + 1;
-		
-	EndDo;
-	
-	BoosterRecordSet.Write();
+		BoosterRecordSet.Write();
+	EndIf; // NOT BoosterData = Undefined
 	
 	// Cards data
 	CardsData = SetData.Get("cards");
@@ -81,7 +84,7 @@
 	
 	// No &VT in queries on mobile, so...
 	Query = New Query;
-		
+	
 	FirstLine = True;	
 	QueryText = "";
 	
@@ -126,7 +129,7 @@
 	Query.Text = QueryText;
 	
 	Query.SetParameter("Set", ThisObject.Ref);
-		
+	
 	QueryResult = Query.Execute();
 	CardRefs = QueryResult.Unload();
 	CardRefs.Indexes.Add("Code");
@@ -151,7 +154,7 @@
 		If NOT cmcString = Undefined Then
 			Card.CMC = Number(cmcString);
 		EndIf;
-				
+		
 		LayoutTypeString = CardData.Get("layout");
 		Card.Layout = GeneralPurpose.EnumValueBySynonym("LayoutTypes", LayoutTypeString);
 		
