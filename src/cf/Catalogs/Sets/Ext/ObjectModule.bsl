@@ -12,12 +12,12 @@
 	
 	gathererCodeString = SetData.Get("gathererCode");
 	If NOT gathererCodeString = Undefined Then
-		ThisObject.GathererCode = Number(gathererCodeString);
+		ThisObject.GathererCode = gathererCodeString;
 	EndIf;
 	
 	oldCodeString = SetData.Get("oldCode");
 	If NOT oldCodeString = Undefined Then
-		ThisObject.OldCode = Number(oldCodeString);
+		ThisObject.OldCode = oldCodeString;
 	EndIf;
 
 	releaseDateString = SetData.Get("releaseDate");
