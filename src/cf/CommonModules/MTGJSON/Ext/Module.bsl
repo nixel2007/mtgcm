@@ -5,7 +5,7 @@
 	
 	FileCopy(DataURL, DataTempFile);
 	
-	DataReader = New TextReader(DataTempFile);
+	DataReader = New TextReader(DataTempFile, TextEncoding.UTF8);
 	DataText = DataReader.Read();
 	
 	Data = JSON.ReadJSON(DataText);	
