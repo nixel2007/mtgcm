@@ -148,17 +148,70 @@
 			Card = CardRefsLine.Ref.GetObject();
 		EndIf;
 		
-		Card.Description 	= CardData.Get("name");
 		Card.Owner			= ThisObject.Ref;
+		Card.Description 	= CardData.Get("name");
+		Card.ImageName		= CardData.Get("imageName");
+		Card.Text			= CardData.Get("text");
 		Card.Type 			= CardData.Get("type");
+		Card.ManaCost 		= CardData.Get("manaCost");
+		Card.Artist			= CardData.Get("artist"); 
+		Card.Flavor			= CardData.Get("flavor"); 
+		
+		LayoutTypeString = CardData.Get("layout");
+		Card.Layout = GeneralPurpose.EnumValueBySynonym("LayoutTypes", LayoutTypeString);
+		
+		RarityTypeString = CardData.Get("rarity");
+		Card.Rarity = GeneralPurpose.EnumValueBySynonym("CardRarityTypes", RarityTypeString);
 		
 		cmcString = CardData.Get("cmc");
 		If NOT cmcString = Undefined Then
 			Card.CMC = Number(cmcString);
 		EndIf;
 		
-		LayoutTypeString = CardData.Get("layout");
-		Card.Layout = GeneralPurpose.EnumValueBySynonym("LayoutTypes", LayoutTypeString);
+		powerString = CardData.Get("power");
+		If NOT powerString = Undefined Then
+			Card.Power = Number(powerString);
+		EndIf;
+		
+		toughnessString = CardData.Get("toughness");
+		If NOT toughnessString = Undefined Then
+			Card.Toughness = Number(toughnessString);
+		EndIf;
+		
+		numberString = CardData.Get("number");
+		If NOT numberString = Undefined Then
+			Card.Number = Number(numberString);
+		EndIf;
+		
+		loyaltyString = CardData.Get("loyalty");
+		If NOT loyaltyString = Undefined Then
+			Card.Loyalty = Number(loyaltyString);
+		EndIf;
+				
+		CardDataTypes = CardData.Get("types");
+		Card.Types.Clear();
+		For Each CardDataType In CardDataTypes Do
+			LineCardTypes = Card.Types.Add();
+			LineCardTypes.Type = CardDataType;
+		EndDo; // Each CardType In CardDataTypes
+		
+		CardDataSubTypes = CardData.Get("subtypes");
+		If NOT CardDataSubTypes = Undefined Then
+			Card.SubTypes.Clear();
+			For Each CardDataSubType In CardDataSubTypes Do
+				LineCardSubTypes = Card.SubTypes.Add();
+				LineCardSubTypes.SubType = CardDataSubType;
+			EndDo; // Each CardSubType In CardDataSubTypes
+		EndIf; // NOT CardDataSubTypes = Undefined
+		
+		CardDataColors = CardData.Get("colors");
+		If NOT CardDataColors = Undefined Then
+			Card.Colors.Clear();
+			For Each CardDataColor In CardDataColors Do
+				LineCardColors = Card.Colors.Add();
+				LineCardColors.Color = CardDataColor;
+			EndDo; // Each CardDataColor In CardDataColors
+		EndIf; // NOT CardDataColors = Undefined
 		
 		Card.Write();
 		
