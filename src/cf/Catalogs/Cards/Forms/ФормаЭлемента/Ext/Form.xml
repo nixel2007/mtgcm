@@ -55,6 +55,11 @@
 							<ContextMenu name="CMCКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="CMCРасширеннаяПодсказка" id="15"/>
 						</InputField>
+						<InputField name="ManaCost" id="384">
+							<DataPath>Object.ManaCost</DataPath>
+							<ContextMenu name="ManaCostКонтекстноеМеню" id="385"/>
+							<ExtendedTooltip name="ManaCostРасширеннаяПодсказка" id="386"/>
+						</InputField>
 						<InputField name="Type" id="16">
 							<DataPath>Object.Type</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -215,66 +220,6 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="NamesNameКонтекстноеМеню" id="94"/>
 													<ExtendedTooltip name="NamesNameРасширеннаяПодсказка" id="95"/>
-												</InputField>
-											</ChildItems>
-										</Table>
-									</ChildItems>
-								</Page>
-								<Page name="ГруппаManaCosts" id="96">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Mana costs</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ГруппаManaCostsРасширеннаяПодсказка" id="97"/>
-									<ChildItems>
-										<Table name="ManaCosts" id="98">
-											<Representation>List</Representation>
-											<AutoInsertNewRow>true</AutoInsertNewRow>
-											<EnableStartDrag>true</EnableStartDrag>
-											<EnableDrag>true</EnableDrag>
-											<DataPath>Object.ManaCosts</DataPath>
-											<RowFilter xsi:nil="true"/>
-											<ContextMenu name="ManaCostsКонтекстноеМеню" id="99"/>
-											<AutoCommandBar name="ManaCostsКоманднаяПанель" id="100"/>
-											<ExtendedTooltip name="ManaCostsРасширеннаяПодсказка" id="101"/>
-											<SearchStringAddition name="ManaCostsСтрокаПоиска" id="102">
-												<AdditionSource>
-													<Item>ManaCosts</Item>
-													<Type>SearchStringRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="ManaCostsСтрокаПоискаКонтекстноеМеню" id="105"/>
-												<ExtendedTooltip name="ManaCostsСтрокаПоискаРасширеннаяПодсказка" id="106"/>
-											</SearchStringAddition>
-											<ViewStatusAddition name="ManaCostsСостояниеПросмотра" id="107">
-												<AdditionSource>
-													<Item>ManaCosts</Item>
-													<Type>ViewStatusRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="ManaCostsСостояниеПросмотраКонтекстноеМеню" id="110"/>
-												<ExtendedTooltip name="ManaCostsСостояниеПросмотраРасширеннаяПодсказка" id="111"/>
-											</ViewStatusAddition>
-											<SearchControlAddition name="ManaCostsУправлениеПоиском" id="112">
-												<AdditionSource>
-													<Item>ManaCosts</Item>
-													<Type>SearchControl</Type>
-												</AdditionSource>
-												<ContextMenu name="ManaCostsУправлениеПоискомКонтекстноеМеню" id="115"/>
-												<ExtendedTooltip name="ManaCostsУправлениеПоискомРасширеннаяПодсказка" id="116"/>
-											</SearchControlAddition>
-											<ChildItems>
-												<LabelField name="ManaCostsНомерСтроки" id="117">
-													<DataPath>Object.ManaCosts.LineNumber</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="ManaCostsНомерСтрокиКонтекстноеМеню" id="118"/>
-													<ExtendedTooltip name="ManaCostsНомерСтрокиРасширеннаяПодсказка" id="119"/>
-												</LabelField>
-												<InputField name="ManaCostsManaCost" id="120">
-													<DataPath>Object.ManaCosts.ManaCost</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="ManaCostsManaCostКонтекстноеМеню" id="121"/>
-													<ExtendedTooltip name="ManaCostsManaCostРасширеннаяПодсказка" id="122"/>
 												</InputField>
 											</ChildItems>
 										</Table>

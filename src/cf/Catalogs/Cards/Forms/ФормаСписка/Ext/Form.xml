@@ -83,6 +83,11 @@
 					<ContextMenu name="CMCКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="CMCРасширеннаяПодсказка" id="30"/>
 				</LabelField>
+				<LabelField name="ManaCost" id="61">
+					<DataPath>Список.ManaCost</DataPath>
+					<ContextMenu name="ManaCostКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ManaCostРасширеннаяПодсказка" id="63"/>
+				</LabelField>
 				<LabelField name="Type" id="31">
 					<DataPath>Список.Type</DataPath>
 					<ContextMenu name="TypeКонтекстноеМеню" id="32"/>
