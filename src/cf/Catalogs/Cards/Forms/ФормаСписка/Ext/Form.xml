@@ -19,7 +19,6 @@
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
-			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
@@ -38,9 +37,7 @@
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
 			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
-				<Autofill>false</Autofill>
-			</AutoCommandBar>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5"/>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
 				<AdditionSource>
