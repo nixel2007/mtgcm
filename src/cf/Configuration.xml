@@ -129,6 +129,7 @@
 			<Enum>CardTypes</Enum>
 			<Enum>SetTypes</Enum>
 			<Enum>LayoutTypes</Enum>
+			<Enum>Colors</Enum>
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
 			<InformationRegister>SetBoosterComposition</InformationRegister>
 			<InformationRegister>CardImages</InformationRegister>
