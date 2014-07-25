@@ -524,8 +524,12 @@
 												<InputField name="VariationsVariationId" id="255">
 													<DataPath>Object.Variations.VariationId</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<OpenButton>true</OpenButton>
 													<ContextMenu name="VariationsVariationIdКонтекстноеМеню" id="256"/>
 													<ExtendedTooltip name="VariationsVariationIdРасширеннаяПодсказка" id="257"/>
+													<Events>
+														<Event name="Opening">VariationsVariationIdОткрытие</Event>
+													</Events>
 												</InputField>
 											</ChildItems>
 										</Table>
