@@ -8,7 +8,7 @@
 	
 	BeginTransaction();
 	
-	ThisObject.Description 	= SetData.Get("name");
+	ThisObject.Description = SetData.Get("name");
 	
 	gathererCodeString = SetData.Get("gathererCode");
 	If NOT gathererCodeString = Undefined Then
@@ -19,6 +19,8 @@
 	If NOT oldCodeString = Undefined Then
 		ThisObject.OldCode = oldCodeString;
 	EndIf;
+	
+	ThisObject.OnlineOnly = SetData.Get("onlineOnly");
 
 	releaseDateString = SetData.Get("releaseDate");
 	releaseDateString = StrReplace(releaseDateString, "-", "");	
