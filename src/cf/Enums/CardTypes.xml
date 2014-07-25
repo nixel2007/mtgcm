@@ -230,6 +230,30 @@
 					<Comment>Modern Masters set only</Comment>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="ce205872-8b56-4f5a-8789-5a5025dc4c2a">
+				<Properties>
+					<Name>PowerNine</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Power nine</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cf07db2a-bb74-4e4b-ad14-ecd9ae0ecda0">
+				<Properties>
+					<Name>Foil</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Foil</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
