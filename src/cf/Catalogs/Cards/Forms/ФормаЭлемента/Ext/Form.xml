@@ -144,6 +144,12 @@
 							<ContextMenu name="LifeКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="LifeРасширеннаяПодсказка" id="60"/>
 						</InputField>
+						<CheckBoxField name="Timeshifted" id="387">
+							<DataPath>Object.Timeshifted</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="TimeshiftedКонтекстноеМеню" id="388"/>
+							<ExtendedTooltip name="TimeshiftedРасширеннаяПодсказка" id="389"/>
+						</CheckBoxField>
 						<InputField name="OriginalText" id="61">
 							<DataPath>Object.OriginalText</DataPath>
 							<EditMode>EnterOnInput</EditMode>

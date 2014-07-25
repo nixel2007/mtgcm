@@ -135,6 +135,12 @@
 					<ContextMenu name="BorderКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="BorderРасширеннаяПодсказка" id="60"/>
 				</LabelField>
+				<CheckBoxField name="Timeshifted" id="64">
+					<DataPath>Список.Timeshifted</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="TimeshiftedКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="TimeshiftedРасширеннаяПодсказка" id="66"/>
+				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
