@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="ad08ebf5-5b6f-4b98-b463-077a28237117">
+				<Properties>
+					<Name>BasicLand</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Basic land</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="6ef0c9cd-ca48-4776-af27-51ede5403297">
 				<Properties>
 					<Name>Common</Name>
@@ -81,6 +93,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Mythic Rare</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8b6f122e-f956-4708-a196-8a81fba25c65">
+				<Properties>
+					<Name>Special</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Special</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
