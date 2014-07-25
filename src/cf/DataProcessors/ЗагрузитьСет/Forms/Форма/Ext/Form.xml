@@ -14,6 +14,12 @@
 			<ContextMenu name="ВыбранныйСетКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ВыбранныйСетРасширеннаяПодсказка" id="3"/>
 		</InputField>
+		<CheckBoxField name="GetExtra" id="8">
+			<DataPath>GetExtra</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="GetExtraКонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="GetExtraРасширеннаяПодсказка" id="10"/>
+		</CheckBoxField>
 		<Button name="ЗагрузитьВыбранныйСет" id="6">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ЗагрузитьВыбранныйСет</CommandName>
@@ -40,6 +46,17 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="GetExtra" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get extra</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
