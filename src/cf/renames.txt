@@ -30,6 +30,8 @@ Enums\CardTypes.xml-->Enums\CardTypes.xml
 Enums\Colors.xml-->Enums\Colors.xml
 Enums\LayoutTypes.xml-->Enums\LayoutTypes.xml
 Enums\SetTypes.xml-->Enums\SetTypes.xml
+Ext\MainSectionCommandInterface.xml-->Ext\MainSectionCommandInterface.xml
+Ext\StartPageWorkingArea.xml-->Ext\StartPageWorkingArea.xml
 InformationRegisters\CardImages.xml-->InformationRegisters\CardImages.xml
 InformationRegisters\SetBoosterComposition.xml-->InformationRegisters\SetBoosterComposition.xml
 Languages\Русский.xml-->Languages\Русский.xml
