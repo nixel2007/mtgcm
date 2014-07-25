@@ -24,6 +24,7 @@ DataProcessors\ЗагрузитьСет\Forms\Форма.xml-->DataProcessors\З
 DataProcessors\ЗагрузитьСет\Forms\Форма\Ext\Form.xml-->DataProcessors\ЗагрузитьСет\Forms\Форма\Ext\Form.xml
 DataProcessors\ЗагрузитьСет\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ЗагрузитьСет\Forms\Форма\Ext\Form\Module.bsl
 Enums\BorderTypes.xml-->Enums\BorderTypes.xml
+Enums\CardRarityTypes.xml-->Enums\CardRarityTypes.xml
 Enums\CardTypes.xml-->Enums\CardTypes.xml
 Enums\Colors.xml-->Enums\Colors.xml
 Enums\LayoutTypes.xml-->Enums\LayoutTypes.xml

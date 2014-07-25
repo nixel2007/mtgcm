@@ -130,6 +130,7 @@
 			<Enum>SetTypes</Enum>
 			<Enum>LayoutTypes</Enum>
 			<Enum>Colors</Enum>
+			<Enum>CardRarityTypes</Enum>
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
 			<InformationRegister>SetBoosterComposition</InformationRegister>
 			<InformationRegister>CardImages</InformationRegister>
