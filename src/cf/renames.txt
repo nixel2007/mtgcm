@@ -8,6 +8,7 @@ Catalogs\Cards\Forms\ФормаЭлемента.xml-->Catalogs\Cards\Forms\Фо�
 Catalogs\Cards\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Cards\Forms\ФормаСписка\Ext\Form.xml
 Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form\Module.bsl
+Catalogs\Sets\Commands\UpdateSetData\Ext\CommandModule.bsl-->Catalogs\Sets\Commands\UpdateSetData\Ext\CommandModule.bsl
 Catalogs\Sets\Ext\ManagerModule.bsl-->Catalogs\Sets\Ext\ManagerModule.bsl
 Catalogs\Sets\Ext\ObjectModule.bsl-->Catalogs\Sets\Ext\ObjectModule.bsl
 CommonModules\GeneralPurpose.xml-->CommonModules\GeneralPurpose.xml
