@@ -15,17 +15,14 @@
 	ThisObject.OldCode 		= SetData.Get("oldCode");
 	ThisObject.OnlineOnly 	= SetData.Get("onlineOnly");
 	ThisObject.Block		= SetData.Get("block");
-		
+	ThisObject.ReleaseDate 	= MTGJSON.GetParameterAs1CDate(SetData, "releaseDate");
+	
 	SetTypeString = SetData.Get("type");
 	ThisObject.Type = GeneralPurpose.EnumValueBySynonym("SetTypes", SetTypeString);
 	
 	BorderTypeString = SetData.Get("border");
 	ThisObject.Border = GeneralPurpose.EnumValueBySynonym("BorderTypes", BorderTypeString);
 	
-	releaseDateString = SetData.Get("releaseDate");
-	releaseDateString = StrReplace(releaseDateString, "-", "");	
-	ThisObject.ReleaseDate 	= Date(releaseDateString);
-
 	ThisObject.Write();
 	
 	// Booster data
@@ -231,10 +228,7 @@
 				For Each CardDataRuling In CardDataRulings Do					
 					LineCardRulings = Card.Rulings.Add();
 					LineCardRulings.Text = CardDataRuling.Get("text");
-					
-					CardDataRulingDateString = CardDataRuling.Get("date");
-					CardDataRulingDateString = StrReplace(CardDataRulingDateString, "-", "");	
-					LineCardRulings.date  	 = Date(CardDataRulingDateString);					
+					LineCardRulings.Date = MTGJSON.GetParameterAs1CDate(CardDataRuling, "date");
 				EndDo; // Each CardRuling In CardDataRulings
 			EndIf; // NOT CardDataRulings = Undefined		
 			
