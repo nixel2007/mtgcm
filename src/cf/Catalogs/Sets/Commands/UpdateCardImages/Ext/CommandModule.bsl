@@ -10,31 +10,26 @@
 Procedure UpdateCardImagesAtServer(Set)
 	
 	BeginTransaction();
+		
+	Query = New Query;
+	Query.Text =
+	"SELECT
+	|	Cards.Ref,
+	|	Cards.Code
+	|FROM
+	|	Catalog.Cards As Cards
+	|WHERE
+	|	Cards.Owner = &Owner";
 	
-	// ToDo
-	// Временный костыль. Проблемы с методом Выбрать() из РезультатЗапроса
+	Query.SetParameter("Owner", Set);
+	QueryResult = Query.Execute();
 	
-	//Query = New Query;
-	//Query.Text =
-	//"SELECT
-	//|	Cards.Ref,
-	//|	Cards.Code
-	//|FROM
-	//|	Catalog.Cards As Cards
-	//|WHERE
-	//|	Cards.Owner = &Owner";
-	//
-	//Query.SetParameter("Owner", Set);
-	//QueryResult = Query.Execute();
-	//
-	//If QueryResult.IsEmpty() Then
-	//	Return;
-	//EndIf; // QueryResult.IsEmpty()
-	//
-	//QueryResultSelection = QueryResult.Select();
+	If QueryResult.IsEmpty() Then
+		Return;
+	EndIf; // QueryResult.IsEmpty()
 	
-	QueryResultSelection = Справочники.Cards.Выбрать(, Set);
-	
+	QueryResultSelection = QueryResult.Выбрать();
+		
 	While QueryResultSelection.Next() Do
 		
 		CardImageData = MTGImage.GetMTGData(QueryResultSelection.Code);

@@ -1,5 +1,9 @@
-﻿Function UpdateData(GetExtra = False) Export
-		
+﻿Function UpdateData(GetExtra = Undefined) Export
+	
+	If GetExtra = Undefined Then
+		GetExtra = ThisObject.WithExtraData;
+	EndIf;
+	
 	ExtraSuffix = ?(GetExtra, "-x", "");
 	
 	// Set data
@@ -271,6 +275,11 @@
 	EndDo; // Each CardData In CardsData
 	
 	CommitTransaction();
+	
+	UserMessage = New UserMessage;
+	UserMessage.Text = "Set updated: " + ThisObject.Description;
+	UserMessage.SetData(ThisObject);
+	UserMessage.Message();
 	
 EndFunction
 

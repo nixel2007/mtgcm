@@ -10,6 +10,6 @@
 Procedure UpdateSetDataAtServer(SetRef)
 	
 	SetObject = SetRef.GetObject();
-	SetObject.UpdateData(SetObject.WithExtraData);
+	SetObject.UpdateData();
 	
 EndProcedure
