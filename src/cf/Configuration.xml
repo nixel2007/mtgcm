@@ -134,6 +134,7 @@
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
 			<InformationRegister>SetBoosterComposition</InformationRegister>
 			<InformationRegister>CardImages</InformationRegister>
+			<InformationRegister>SetList</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
