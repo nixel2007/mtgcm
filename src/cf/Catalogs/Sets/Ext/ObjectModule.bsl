@@ -51,7 +51,7 @@
 					BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BosterCardTypeData);
 					BoosterCard.CardNumber	= index;					
 					
-				EndDo;
+				EndDo; // Each BosterCardTypeData In BoosterPositionData
 				
 			Else
 				
@@ -61,11 +61,11 @@
 				BoosterCard.CardType 	= GeneralPurpose.EnumValueBySynonym("CardTypes", BoosterPositionData);
 				BoosterCard.CardNumber	= index;
 				
-			EndIf;
+			EndIf; // TypeOf(BoosterPositionData) = Type("Array")
 			
 			index = index + 1;
 			
-		EndDo;
+		EndDo; // Each BoosterPositionData In BoosterData
 		
 		BoosterRecordSet.Write();
 		
@@ -81,7 +81,7 @@
 		CardIDsLine = CardIDs.Добавить();
 		CardIDsLine.Code = Number(CardData.Get("multiverseid"));
 		
-	EndDo;
+	EndDo; // Each CardData In CardsData
 	
 	// No &VT in queries on mobile, so...
 	Query = New Query;
@@ -108,7 +108,7 @@
 		CardNumber = CardNumber + 1;
 		FirstLine = False;
 		
-	EndDo;
+	EndDo; // Each CardData In CardsData
 	
 	QueryText = QueryText + "
 	|INDEX BY
@@ -148,7 +148,7 @@
 			Card.Code = Number(MultiverseID);
 		Else
 			Card = CardRefsLine.Ref.GetObject();
-		EndIf;
+		EndIf; // CardRefsLine.Ref = NULL
 		
 		Card.Owner			= ThisObject.Ref;
 		Card.Description 	= CardData.Get("name");
@@ -170,8 +170,7 @@
 		FillPropertyIfExist(Card, CardData, "toughness");
 		FillPropertyIfExist(Card, CardData, "watermark");
 		FillPropertyIfExist(Card, CardData, "timeshifted");
-		
-		
+				
 		FillPropertyIfExist(Card, CardData, "number", 	True);
 		FillPropertyIfExist(Card, CardData, "loyalty", 	True);
 						
@@ -275,7 +274,7 @@
 		
 		Card.Write();
 		
-	EndDo;
+	EndDo; // Each CardData In CardsData
 	
 	CommitTransaction();
 	
@@ -287,6 +286,6 @@ Procedure FillPropertyIfExist(Object, PropertyMap, PropertyName, ConvertToNumeri
 	If NOT PropertyValue = Undefined Then
 		PropertyResult = ?(ConvertToNumeric, Number(PropertyValue), PropertyValue);		
 		Object[PropertyName] = PropertyResult;
-	EndIf;	
+	EndIf; // NOT PropertyValue = Undefined	
 	
 EndProcedure
