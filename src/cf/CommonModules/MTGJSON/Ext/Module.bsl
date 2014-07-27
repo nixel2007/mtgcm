@@ -27,4 +27,14 @@ Function DataBaseURL()
 	
 	Return "http://mtgjson.com/json/";
 
-EndFunction	
+EndFunction
+
+Function GetParameterAs1CDate(Map, ParameterName) Export
+	
+	ParameterString = Map.Get(ParameterName);
+	ParameterString = StrReplace(ParameterString, "-", "");	
+	ParameterDate  	= Date(ParameterString);
+	
+	Return ParameterDate;
+		
+EndFunction
