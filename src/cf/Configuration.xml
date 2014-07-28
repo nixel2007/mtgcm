@@ -118,24 +118,24 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<CommonModule>JSON</CommonModule>
-			<CommonModule>MTGJSON</CommonModule>
 			<CommonModule>GeneralPurpose</CommonModule>
-			<CommonModule>MTGImage</CommonModule>
-			<CommonModule>StringFunctionsClientServer</CommonModule>
 			<CommonModule>GeneralPurposeClientServer</CommonModule>
+			<CommonModule>JSON</CommonModule>
+			<CommonModule>MTGImage</CommonModule>
+			<CommonModule>MTGJSON</CommonModule>
+			<CommonModule>StringFunctionsClientServer</CommonModule>
 			<Constant>JSONDBVersion</Constant>
-			<Catalog>Sets</Catalog>
 			<Catalog>Cards</Catalog>
+			<Catalog>Sets</Catalog>
 			<Enum>BorderTypes</Enum>
-			<Enum>CardTypes</Enum>
-			<Enum>SetTypes</Enum>
-			<Enum>LayoutTypes</Enum>
-			<Enum>Colors</Enum>
 			<Enum>CardRarityTypes</Enum>
+			<Enum>CardTypes</Enum>
+			<Enum>Colors</Enum>
+			<Enum>LayoutTypes</Enum>
+			<Enum>SetTypes</Enum>
 			<DataProcessor>ЗагрузитьСет</DataProcessor>
-			<InformationRegister>SetBoosterComposition</InformationRegister>
 			<InformationRegister>CardImages</InformationRegister>
+			<InformationRegister>SetBoosterComposition</InformationRegister>
 			<InformationRegister>SetList</InformationRegister>
 		</ChildObjects>
 	</Configuration>
