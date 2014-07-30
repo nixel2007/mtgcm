@@ -116,7 +116,7 @@ Procedure UpdateAllData() Export
 	index = ChangeLogData.UBound();
 	While index >= 0 Do
 		ChangeLogVersion = ChangeLogData[index].Get("version");
-		If GeneralPurposeClientServer.CompareVersions(DBVersion, ChangeLogVersion) > 0 Then
+		If GeneralPurposeClientServer.CompareVersions(DBVersion, ChangeLogVersion) >= 0 Then
 			ChangeLogData.Delete(index);
 		EndIf;
 		
@@ -131,7 +131,7 @@ Procedure UpdateAllData() Export
 		
 		AddTextToChangeLog(ChangeLog, VersionData);
 		
-		UpdatedSetFiles = VersionData.Get("newSetFiles");
+		UpdatedSetFiles = VersionData.Get("updatedSetFiles");
 		If NOT UpdatedSetFiles = Undefined Then
 			GeneralPurposeClientServer.CompleteArray(UpdatedSets, UpdatedSetFiles, True); 	
 		EndIf; // NOT UpdatedSetFiles = Undefined
@@ -150,25 +150,29 @@ Procedure UpdateAllData() Export
 	
 	Message(ChangeLog);
 	
-	SelectionUpdatedSets = FindSetsBySetNames(UpdatedSets);
-	Catalogs.Sets.UpdateData(SelectionUpdatedSets);
+	If UpdatedSets.Count() > 0 Then	
+		SelectionUpdatedSets = FindSetsBySetNames(UpdatedSets);
+		Catalogs.Sets.UpdateData(SelectionUpdatedSets);
+	EndIf; // UpdatedSets.Count() > 0
 	
 	For Each NewSetFile In NewSets Do
 		UserMessage = New UserMessage;
 		UserMessage.Text = "New set available : " + NewSetFile;
 		UserMessage.Message();
 	EndDo; // Each NewSetFile In NewSetFiles
-	
-	SelectionRemovedSets = FindSetsBySetNames(RemovedSets);	
-	While SelectionRemovedSets.Next() Do
-		RemovedSetObject = SelectionRemovedSets.Ref.GetObject();
-		RemovedSetObject.SetDeletionMark(True);
-		
-		UserMessage = New UserMessage;
-		UserMessage.Text = "Set removed: " + RemovedSetObject.Description;
-		UserMessage.SetData(RemovedSetObject);
-		UserMessage.Message();
-	EndDo; // SelectionRemovedSets.Next()
+	                    
+	If RemovedSets.Count() > 0 Then
+		SelectionRemovedSets = FindSetsBySetNames(RemovedSets);	
+		While SelectionRemovedSets.Next() Do
+			RemovedSetObject = SelectionRemovedSets.Ref.GetObject();
+			RemovedSetObject.SetDeletionMark(True);
+			
+			UserMessage = New UserMessage;
+			UserMessage.Text = "Set removed: " + RemovedSetObject.Description;
+			UserMessage.SetData(RemovedSetObject);
+			UserMessage.Message();
+		EndDo; // SelectionRemovedSets.Next()
+	EndIf; // RemovedSets.Count() > 0
 	
 	Version	= GetMTGJSONVersion();
 	Constants.JSONDBVersion.Set(Version);
