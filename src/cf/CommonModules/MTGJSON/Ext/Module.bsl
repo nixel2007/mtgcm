@@ -39,7 +39,7 @@ EndFunction
 
 Function FindSetsBySetNames(Val SetNamesArray)
 	
-	StringQualifiers = New StringQualifiers(3);
+	StringQualifiers = New StringQualifiers(4);
 	
 	SetNamesVT = Новый ТаблицаЗначений;
 	SetNamesVT.Columns.Add("Code", New TypeDescription("String", , StringQualifiers));
