@@ -99,7 +99,12 @@ EndProcedure
 
 Function UpdateAvailable() Export
 	
-	Version 	= GetMTGJSONVersion();	
+	Try
+		Version	= GetMTGJSONVersion();
+	Except
+		Message("No internet connection. Can't check for updates.");
+		Return False;
+	EndTry;
 	DBVersion 	= Constants.JSONDBVersion.Get();
 	
 	Return GeneralPurposeClientServer.CompareVersions(Version, DBVersion) > 0;
