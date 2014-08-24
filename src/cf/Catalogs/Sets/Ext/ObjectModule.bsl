@@ -170,17 +170,19 @@
 		FillPropertyIfExist(Card, CardData, "power");
 		FillPropertyIfExist(Card, CardData, "toughness");
 		FillPropertyIfExist(Card, CardData, "watermark");
-		FillPropertyIfExist(Card, CardData, "timeshifted");
-				
-		FillPropertyIfExist(Card, CardData, "number", 	True);
+		FillPropertyIfExist(Card, CardData, "timeshifted");				
+		FillPropertyIfExist(Card, CardData, "number");
+		
 		FillPropertyIfExist(Card, CardData, "loyalty", 	True);
 						
 		CardDataTypes = CardData.Get("types");
-		Card.Types.Clear();
-		For Each CardDataType In CardDataTypes Do
-			LineCardTypes = Card.Types.Add();
-			LineCardTypes.Type = CardDataType;
-		EndDo; // Each CardType In CardDataTypes
+		If NOT CardDataTypes = Undefined Then
+			Card.Types.Clear();
+			For Each CardDataType In CardDataTypes Do
+				LineCardTypes = Card.Types.Add();
+				LineCardTypes.Type = CardDataType;
+			EndDo; // Each CardType In CardDataTypes
+		EndIf; // NOT CardDataTypes = Undefined
 		
 		CardDataSubTypes = CardData.Get("subtypes");
 		If NOT CardDataSubTypes = Undefined Then
