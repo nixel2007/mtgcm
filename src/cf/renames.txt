@@ -41,5 +41,8 @@ Ext\StartPageWorkingArea.xml-->Ext\StartPageWorkingArea.xml
 InformationRegisters\CardImages.xml-->InformationRegisters\CardImages.xml
 InformationRegisters\SetBoosterComposition.xml-->InformationRegisters\SetBoosterComposition.xml
 InformationRegisters\SetList.xml-->InformationRegisters\SetList.xml
+InformationRegisters\CardImages\Forms\ФормаСписка.xml-->InformationRegisters\CardImages\Forms\ФормаСписка.xml
+InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form.xml-->InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form.xml
+InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form\Module.bsl-->InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form\Module.bsl
 InformationRegisters\SetList\Ext\ManagerModule.bsl-->InformationRegisters\SetList\Ext\ManagerModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml
