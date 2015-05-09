@@ -1,20 +1,12 @@
 ﻿Function EnumValueBySynonym(EnumType, EnumSynonym) Export
 	
-	UpperSynonym = Upper(EnumSynonym);
-	
-	EnumValues = Metadata.Enums[EnumType].EnumValues;
-	
-	For Each EnumValue In EnumValues Do
+	Return GeneralPuproseRepUse.EnumValueBySynonym(EnumType, EnumSynonym);	
 		
-		If UpperSynonym = Upper(EnumValue.Synonym) Then
-			
-			Result = Enums[EnumType][EnumValue.Name];			
-			Return Result;
-		EndIf;
-		
-	EndDo;
+EndFunction
+
+Function CatalogRefByDescription(EnumType, EnumSynonym) Export
 	
-	Raise "Can't find enum value by synonym. Type: " + EnumType + ", Synonym: " + EnumSynonym;	
+	Return GeneralPuproseRepUse.CatalogRefByDescription(EnumType, EnumSynonym);	
 		
 EndFunction
 

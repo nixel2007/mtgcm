@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.1">
+	<Item id="4e9a11e0-797b-43a0-b954-1ea324ea9673">
+		<Name>ChineseSimplified</Name>
+		<Code>000000004</Code>
+		<Description>Chinese simplified</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="831201bf-dfc8-44c0-810d-60aa93a9e5e9">
+		<Name>ChineseTraditional</Name>
+		<Code>000000003</Code>
+		<Description>Chinese traditional</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7e823959-1d5f-4f2d-9bc5-a76ecd2b3f6e">
+		<Name>English</Name>
+		<Code>000000001</Code>
+		<Description>English</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f9173e1c-067f-42dc-9d7e-d7ccd231d5ae">
+		<Name>French</Name>
+		<Code>000000005</Code>
+		<Description>French</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9937a35f-c0d4-4c0e-85f6-4593715b125f">
+		<Name>German</Name>
+		<Code>000000006</Code>
+		<Description>German</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="00103b10-4631-49cd-8710-024aa585bda1">
+		<Name>Italian</Name>
+		<Code>000000007</Code>
+		<Description>Italian</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c4936ccd-30ef-433d-b9a3-54722706c490">
+		<Name>Japanese</Name>
+		<Code>000000008</Code>
+		<Description>Japanese</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="434bcf21-8e48-4d50-8306-9f713230e6ae">
+		<Name>Korean</Name>
+		<Code>000000009</Code>
+		<Description>Korean</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d02248a1-e50e-406b-9872-76774455d367">
+		<Name>Portuguese</Name>
+		<Code>000000010</Code>
+		<Description>Portuguese</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d717710-5c86-4f85-bbe7-977285e6b870">
+		<Name>PortugueseBrazil</Name>
+		<Code>000000012</Code>
+		<Description>Portuguese (Brazil)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f240a088-0136-4737-83e1-1b6d1a3b3b76">
+		<Name>Russian</Name>
+		<Code>000000002</Code>
+		<Description>Russian</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b8f7ba4-7258-499a-8ac5-17760e2ed88d">
+		<Name>Spanish</Name>
+		<Code>000000011</Code>
+		<Description>Spanish</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

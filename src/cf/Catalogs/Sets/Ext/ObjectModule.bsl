@@ -207,7 +207,7 @@
 			Card.Colors.Clear();
 			For Each CardDataColor In CardDataColors Do
 				LineCardColors = Card.Colors.Add();
-				LineCardColors.Color = CardDataColor;
+				LineCardColors.Color = GeneralPurpose.EnumValueBySynonym("Colors", CardDataColor);
 			EndDo; // Each CardDataColor In CardDataColors
 		EndIf; // NOT CardDataColors = Undefined
 		
@@ -244,7 +244,7 @@
 				For Each CardDataforeignName In CardDataforeignNames Do						
 					LineCardforeignNames = Card.foreignNames.Add();
 					LineCardforeignNames.Name 		= CardDataforeignName.Get("name");
-					LineCardforeignNames.Language 	= CardDataforeignName.Get("language");					
+					LineCardforeignNames.Language 	= GeneralPuproseRepUse.CatalogRefByDescription("Languages", CardDataforeignName.Get("language"));					
 				EndDo; // Each CardforeignName In CardDataforeignNames
 			EndIf; // NOT CardDataforeignNames = Undefined		
 			

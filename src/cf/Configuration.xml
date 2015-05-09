@@ -118,6 +118,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>GeneralPuproseRepUse</CommonModule>
 			<CommonModule>GeneralPurpose</CommonModule>
 			<CommonModule>GeneralPurposeClientServer</CommonModule>
 			<CommonModule>JSON</CommonModule>
@@ -125,8 +126,10 @@
 			<CommonModule>MTGJSON</CommonModule>
 			<CommonModule>StringFunctionsClientServer</CommonModule>
 			<Constant>JSONDBVersion</Constant>
+			<Constant>CardLanguage</Constant>
 			<Catalog>Cards</Catalog>
 			<Catalog>Sets</Catalog>
+			<Catalog>Languages</Catalog>
 			<Enum>BorderTypes</Enum>
 			<Enum>CardRarityTypes</Enum>
 			<Enum>CardTypes</Enum>

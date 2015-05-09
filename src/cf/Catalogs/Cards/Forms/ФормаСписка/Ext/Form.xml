@@ -64,11 +64,17 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="21"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Наименование" id="22">
-					<DataPath>Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
+				<LabelField name="Ссылка" id="67">
+					<DataPath>Список.Ref</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Card</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="69"/>
 				</LabelField>
 				<LabelField name="Layout" id="25">
 					<DataPath>Список.Layout</DataPath>
@@ -161,7 +167,7 @@
 					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Наименование</dcsset:field>
+							<dcsset:field>Ссылка</dcsset:field>
 							<dcsset:orderType>Asc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
