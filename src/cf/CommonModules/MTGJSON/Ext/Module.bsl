@@ -23,7 +23,7 @@ Function GetMTGData(FileAddress) Export
 	DataReader = New TextReader(DataTempFile, TextEncoding.UTF8);
 	DataText = DataReader.Read();
 	
-	Data = JSON.ReadJSON(DataText);	
+	Data = JSON.myReadJSON(DataText);	
 	
 	DataReader.Close();
 	
