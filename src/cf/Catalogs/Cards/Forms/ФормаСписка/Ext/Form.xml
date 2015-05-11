@@ -68,7 +68,7 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="21"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Ссылка" id="67">
+				<LabelField name="Card" id="67">
 					<DataPath>Список.Ref</DataPath>
 					<Title>
 						<v8:item>
@@ -81,8 +81,8 @@
 						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
-					<ContextMenu name="СсылкаКонтекстноеМеню" id="68"/>
-					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="69"/>
+					<ContextMenu name="CardContextMenu" id="68"/>
+					<ExtendedTooltip name="CardExtendedTooltip" id="69"/>
 				</LabelField>
 				<LabelField name="Layout" id="25">
 					<DataPath>Список.Layout</DataPath>
@@ -175,6 +175,10 @@
 					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Owner</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Ссылка</dcsset:field>
 							<dcsset:orderType>Asc</dcsset:orderType>
 						</dcsset:item>
@@ -188,6 +192,7 @@
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:use>false</dcsset:use>
 								<dcsset:field>Владелец</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
