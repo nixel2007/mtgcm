@@ -110,7 +110,7 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>Use</ModalityUseMode>
+			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_5</CompatibilityMode>
@@ -125,6 +125,7 @@
 			<CommonModule>MTGImage</CommonModule>
 			<CommonModule>MTGJSON</CommonModule>
 			<CommonModule>StringFunctionsClientServer</CommonModule>
+			<CommonModule>GeneralPurposeClient</CommonModule>
 			<Constant>JSONDBVersion</Constant>
 			<Constant>CardLanguage</Constant>
 			<Catalog>Cards</Catalog>

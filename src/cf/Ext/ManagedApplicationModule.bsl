@@ -1,17 +1,16 @@
-﻿
-Процедура ПриНачалеРаботыСистемы()
+﻿Procedure OnStart()
 	
 	If MTGJSON.UpdateAvailable() Then
-		Answer = DoQueryBox("Do you want to update the card database?",
-							QuestionDialogMode.YesNo,
-							15,
-							,
-							"Update is available!"
-							);
-		If Answer = DialogReturnCode.Yes Then
-			MTGJSON.UpdateAllData();
-		EndIf;
+
+		ShowQueryBox(
+			New NotifyDescription("UpdateAllMTGDataEnding", GeneralPurposeClient),
+			"Do you want to update the card database?",
+			QuestionDialogMode.YesNo,
+			15,
+			,
+			"Update is available!"
+		);
 								
 	EndIf;
 	
-КонецПроцедуры
+EndProcedure

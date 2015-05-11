@@ -16,6 +16,7 @@ Catalogs\Sets\Ext\ManagerModule.bsl-->Catalogs\Sets\Ext\ManagerModule.bsl
 Catalogs\Sets\Ext\ObjectModule.bsl-->Catalogs\Sets\Ext\ObjectModule.bsl
 CommonModules\GeneralPuproseRepUse.xml-->CommonModules\GeneralPuproseRepUse.xml
 CommonModules\GeneralPurpose.xml-->CommonModules\GeneralPurpose.xml
+CommonModules\GeneralPurposeClient.xml-->CommonModules\GeneralPurposeClient.xml
 CommonModules\GeneralPurposeClientServer.xml-->CommonModules\GeneralPurposeClientServer.xml
 CommonModules\JSON.xml-->CommonModules\JSON.xml
 CommonModules\MTGImage.xml-->CommonModules\MTGImage.xml
@@ -23,6 +24,7 @@ CommonModules\MTGJSON.xml-->CommonModules\MTGJSON.xml
 CommonModules\StringFunctionsClientServer.xml-->CommonModules\StringFunctionsClientServer.xml
 CommonModules\GeneralPuproseRepUse\Ext\Module.bsl-->CommonModules\GeneralPuproseRepUse\Ext\Module.bsl
 CommonModules\GeneralPurpose\Ext\Module.bsl-->CommonModules\GeneralPurpose\Ext\Module.bsl
+CommonModules\GeneralPurposeClient\Ext\Module.bsl-->CommonModules\GeneralPurposeClient\Ext\Module.bsl
 CommonModules\GeneralPurposeClientServer\Ext\Module.bsl-->CommonModules\GeneralPurposeClientServer\Ext\Module.bsl
 CommonModules\JSON\Ext\Module.bsl-->CommonModules\JSON\Ext\Module.bsl
 CommonModules\MTGImage\Ext\Module.bsl-->CommonModules\MTGImage\Ext\Module.bsl
