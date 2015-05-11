@@ -1,6 +1,6 @@
-﻿Function GetMTGData(Multiverseid, FileSuffix = ".jpg") Export
+﻿Function GetMTGData(Multiverseid) Export
 	
-	DataURL = DataBaseURL() + Format(Multiverseid, "NG=") + FileSuffix;	
+	DataURL = DataBaseURL() + Format(Multiverseid, "NG=");	
 	DataTempFile = GetTempFileName("jpg");
 	
 	FileCopy(DataURL, DataTempFile);
@@ -19,6 +19,6 @@ EndFunction
 		
 Function DataBaseURL()
 	
-	Return "http://mtgimage.com/multiverseid/";
+	Return "http://gatherer.wizards.com/Handlers/Image.ashx?type=card&multiverseid=";
 
 EndFunction	
