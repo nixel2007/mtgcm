@@ -4,8 +4,10 @@ Catalogs\Languages.xml-->Catalogs\Languages.xml
 Catalogs\Sets.xml-->Catalogs\Sets.xml
 Catalogs\Cards\Ext\ManagerModule.bsl-->Catalogs\Cards\Ext\ManagerModule.bsl
 Catalogs\Cards\Ext\ObjectModule.bsl-->Catalogs\Cards\Ext\ObjectModule.bsl
+Catalogs\Cards\Forms\ChoiceForm.xml-->Catalogs\Cards\Forms\ChoiceForm.xml
 Catalogs\Cards\Forms\ФормаСписка.xml-->Catalogs\Cards\Forms\ФормаСписка.xml
 Catalogs\Cards\Forms\ФормаЭлемента.xml-->Catalogs\Cards\Forms\ФормаЭлемента.xml
+Catalogs\Cards\Forms\ChoiceForm\Ext\Form.xml-->Catalogs\Cards\Forms\ChoiceForm\Ext\Form.xml
 Catalogs\Cards\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Cards\Forms\ФормаСписка\Ext\Form.xml
 Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\Cards\Forms\ФормаЭлемента\Ext\Form\Module.bsl

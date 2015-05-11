@@ -2,7 +2,7 @@
 Procedure PresentationGetProcessing(Data, Presentation, StandartProcessing)
 	
 	Ref = Undefined;
-	If NOT Data.Свойство("Ссылка", Ref) Then
+	If NOT Data.Свойство("Ref", Ref) Then
 		Return;
 	EndIf;
 	
