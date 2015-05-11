@@ -13,10 +13,18 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
 					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</ToolTip>
@@ -28,10 +36,18 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Реквизиты</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Страница реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Страница реквизиты</v8:content>
 						</v8:item>
 					</ToolTip>
@@ -168,6 +184,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Страницы</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="68"/>
 							<ChildItems>
@@ -175,6 +195,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Names</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Names</v8:content>
 										</v8:item>
 									</Title>
@@ -237,6 +261,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Colors</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Colors</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаColorsРасширеннаяПодсказка" id="124"/>
 									<ChildItems>
@@ -295,6 +323,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Supertypes</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Supertypes</v8:content>
 										</v8:item>
 									</Title>
@@ -357,6 +389,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Types</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Types</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаTypesРасширеннаяПодсказка" id="178"/>
 									<ChildItems>
@@ -417,6 +453,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Subtypes</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Subtypes</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаSubtypesРасширеннаяПодсказка" id="205"/>
 									<ChildItems>
@@ -475,6 +515,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Variations</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Variations</v8:content>
 										</v8:item>
 									</Title>
@@ -539,6 +583,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Rulings</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Rulings</v8:content>
 										</v8:item>
 									</Title>
@@ -607,6 +655,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Foreign names</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Foreign names</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаForeignNamesРасширеннаяПодсказка" id="289"/>
 									<ChildItems>
@@ -673,6 +725,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Printings</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Printings</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаPrintingsРасширеннаяПодсказка" id="319"/>
 									<ChildItems>
@@ -731,6 +787,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Legalities</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Legalities</v8:content>
 										</v8:item>
 									</Title>
@@ -809,10 +869,18 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изображение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Изображение</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Страница изображение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Страница изображение</v8:content>
 						</v8:item>
 					</ToolTip>
@@ -837,6 +905,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Object</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogObject.Cards</v8:Type>
@@ -848,6 +920,10 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>Card image</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
 					<v8:content>Card image</v8:content>
 				</v8:item>
 			</Title>
@@ -867,10 +943,18 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Update card image</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update card image</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>Update card image</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
 					<v8:content>Update card image</v8:content>
 				</v8:item>
 			</ToolTip>

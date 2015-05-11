@@ -27,8 +27,12 @@
 			<Name>Cards</Name>
 			<Synonym>
 				<v8:item>
-					<v8:lang>ru</v8:lang>
+					<v8:lang>en</v8:lang>
 					<v8:content>Cards</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -198,6 +202,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Set</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Set</v8:content>
+						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
@@ -278,6 +286,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Multiverseid</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Multiverseid</v8:content>
+						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
@@ -319,6 +331,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Card</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Card</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -334,6 +350,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Layout</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Layout</v8:content>
 						</v8:item>
 					</Synonym>
@@ -375,6 +395,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>CMC</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>CMC</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -391,6 +415,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Converted mana cost</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Converted mana cost</v8:content>
 						</v8:item>
 					</ToolTip>
@@ -422,6 +450,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Type</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Type</v8:content>
 						</v8:item>
 					</Synonym>
@@ -467,6 +499,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Rarity</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rarity</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -504,6 +540,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Text</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Text</v8:content>
 						</v8:item>
 					</Synonym>
@@ -549,6 +589,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Flavor</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Flavor</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -590,6 +634,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Artist</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Artist</v8:content>
 						</v8:item>
 					</Synonym>
@@ -635,6 +683,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Number</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Card number in set</Comment>
 					<Type>
@@ -676,6 +728,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Power</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Power</v8:content>
 						</v8:item>
 					</Synonym>
@@ -721,6 +777,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Toughness</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toughness</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -762,6 +822,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Loyalty</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Loyalty</v8:content>
 						</v8:item>
 					</Synonym>
@@ -808,6 +872,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Image name</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Image name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -849,6 +917,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Watermark</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Watermark</v8:content>
 						</v8:item>
 					</Synonym>
@@ -894,6 +966,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Border</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Border</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -931,6 +1007,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Hand</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Hand</v8:content>
 						</v8:item>
 					</Synonym>
@@ -977,6 +1057,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Life</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Life</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1019,6 +1103,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Original text</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Original text</v8:content>
 						</v8:item>
 					</Synonym>
@@ -1064,6 +1152,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Original type</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Original type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Extra only</Comment>
 					<Type>
@@ -1107,6 +1199,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Mana cost</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mana cost</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1148,6 +1244,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Timeshifted</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Timeshifted</v8:content>
 						</v8:item>
 					</Synonym>
@@ -1199,6 +1299,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Names</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Names</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1212,6 +1316,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Name</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Name</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1266,6 +1374,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Colors</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Colors</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1279,6 +1391,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Color</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Color</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1329,6 +1445,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Supertypes</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Supertypes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1342,6 +1462,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Supertype</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Supertype</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1396,6 +1520,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Types</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Types</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1409,6 +1537,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Type</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Type</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1463,6 +1595,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Subtypes</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subtypes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1476,6 +1612,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Subtype</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Subtype</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1530,6 +1670,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Variations</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Variations</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -1543,6 +1687,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Variation id</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Variation id</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1598,6 +1746,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Rulings</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rulings</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Extra only</Comment>
 					<ToolTip/>
@@ -1611,6 +1763,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Date</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Date</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1650,6 +1806,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Text</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Text</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1704,6 +1864,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Foreign names</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Foreign names</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Extra only</Comment>
 					<ToolTip/>
@@ -1717,6 +1881,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Language</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Language</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1753,6 +1921,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Name</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Name</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1807,6 +1979,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Printings</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Printings</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Extra only</Comment>
 					<ToolTip/>
@@ -1820,6 +1996,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Set name</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Set name</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1874,6 +2054,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Legalities</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Legalities</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Extra only</Comment>
 					<ToolTip/>
@@ -1887,6 +2071,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Format</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Format</v8:content>
 								</v8:item>
 							</Synonym>
@@ -1927,6 +2115,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Status</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Status</v8:content>
 								</v8:item>
 							</Synonym>

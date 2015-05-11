@@ -34,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>MTG collection manager</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>MTG collection manager</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<NamePrefix/>
@@ -102,7 +106,7 @@
 			</RequiredMobileApplicationPermissions>
 			<DefaultInterface/>
 			<DefaultStyle/>
-			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<DefaultLanguage>Language.English</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -113,20 +117,20 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_5</CompatibilityMode>
+			<CompatibilityMode>Version8_3_6</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
-			<Language>Русский</Language>
 			<Language>English</Language>
+			<Language>Русский</Language>
 			<CommonModule>GeneralPuproseRepUse</CommonModule>
 			<CommonModule>GeneralPurpose</CommonModule>
+			<CommonModule>GeneralPurposeClient</CommonModule>
 			<CommonModule>GeneralPurposeClientServer</CommonModule>
 			<CommonModule>JSON</CommonModule>
 			<CommonModule>MTGImage</CommonModule>
 			<CommonModule>MTGJSON</CommonModule>
 			<CommonModule>StringFunctionsClientServer</CommonModule>
-			<CommonModule>GeneralPurposeClient</CommonModule>
 			<Constant>JSONDBVersion</Constant>
 			<Constant>CardLanguage</Constant>
 			<Catalog>Cards</Catalog>
