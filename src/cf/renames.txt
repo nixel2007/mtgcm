@@ -52,4 +52,5 @@ InformationRegisters\CardImages\Forms\ФормаСписка.xml-->InformationRe
 InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form.xml-->InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form.xml
 InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form\Module.bsl-->InformationRegisters\CardImages\Forms\ФормаСписка\Ext\Form\Module.bsl
 InformationRegisters\SetList\Ext\ManagerModule.bsl-->InformationRegisters\SetList\Ext\ManagerModule.bsl
+Languages\English.xml-->Languages\English.xml
 Languages\Русский.xml-->Languages\Русский.xml

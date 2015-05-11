@@ -42,7 +42,7 @@
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">MobileDevice</v8:Value>
 			</UsePurposes>
-			<ScriptVariant>Russian</ScriptVariant>
+			<ScriptVariant>English</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>NikitaGryzlov</Vendor>
 			<Version>0.1</Version>
@@ -118,6 +118,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Language>English</Language>
 			<CommonModule>GeneralPuproseRepUse</CommonModule>
 			<CommonModule>GeneralPurpose</CommonModule>
 			<CommonModule>GeneralPurposeClientServer</CommonModule>
