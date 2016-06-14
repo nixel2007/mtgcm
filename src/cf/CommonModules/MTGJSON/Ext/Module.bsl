@@ -86,7 +86,7 @@ EndFunction
 Procedure AddTextToChangeLog(ChangeLog, VersionData)
 	
 	version = VersionData.Get("version");
-	When 	= GetParameterAs1CDate(VersionData, "when");
+	When 	= GetParameterAs1CDate(VersionData, "whenSiteMap");
 	Changes = VersionData.Get("changes");
 	
 	ChangeLog = ChangeLog + version + " (" + Format(When, "ДЛФ=D") + ")" + Chars.LF;
