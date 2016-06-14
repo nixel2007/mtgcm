@@ -262,8 +262,8 @@
 				Card.Legalities.Clear();
 				For Each CardDatalegality In CardDataLegalities Do
 					LineCardlegalities = Card.Legalities.Add();
-					LineCardlegalities.Format = CardDatalegality.Key;
-					LineCardlegalities.Status = CardDatalegality.Value;
+					LineCardlegalities.Format = CardDatalegality.Get("format");
+					LineCardlegalities.Status = CardDatalegality.Get("legality");
 				EndDo; // Each Cardlegality In CardDataLegalities
 			EndIf; // NOT CardDataLegalities = Undefined
 		
