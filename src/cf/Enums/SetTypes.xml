@@ -298,6 +298,22 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="126f9e8d-1c8e-4744-8241-4a3010b3514a">
+				<Properties>
+					<Name>Masterpiece</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Masterpiece</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Masterpiece</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
