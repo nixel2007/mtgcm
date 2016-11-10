@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AutoCommandBar name="FormCommandBar" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="FormNewGame" id="77">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.NewGame</CommandName>
+				<ExtendedTooltip name="FormNewGameExtendedTooltip" id="78"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="PlayerWon" id="79">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Font ref="style:NormalTextFont" height="20" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player won</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="PlayerWonContextMenu" id="80"/>
+			<ExtendedTooltip name="PlayerWonExtendedTooltip" id="81"/>
+		</LabelDecoration>
+		<UsualGroup name="PlayersInfo" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Players info</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Players info</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="PlayersInfoExtendedTooltip" id="8"/>
+			<ChildItems>
+				<UsualGroup name="GroupPlayer1" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group player1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group player1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="GroupPlayer1ExtendedTooltip" id="10"/>
+					<ChildItems>
+						<InputField name="Player1" id="1">
+							<DataPath>Player1</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="Player1ContextMenu" id="2"/>
+							<ExtendedTooltip name="Player1ExtendedTooltip" id="3"/>
+						</InputField>
+						<InputField name="Deck1" id="13">
+							<DataPath>Deck1</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="Deck1ContextMenu" id="14"/>
+							<ExtendedTooltip name="Deck1ExtendedTooltip" id="15"/>
+						</InputField>
+						<Pages name="Player1Info" id="19">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Player1 info</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Player1 info</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="Player1InfoExtendedTooltip" id="20"/>
+							<ChildItems>
+								<Page name="PageHealth1" id="29">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Health</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page health1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<TitleDataPath>Health1</TitleDataPath>
+									<ExtendedTooltip name="PageHealth1ExtendedTooltip" id="30"/>
+									<ChildItems>
+										<LabelField name="Health1" id="23">
+											<DataPath>Health1</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Format>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>NZ=0</v8:content>
+												</v8:item>
+											</Format>
+											<Font ref="style:NormalTextFont" height="24" kind="StyleItem"/>
+											<ContextMenu name="Health1ContextMenu" id="24"/>
+											<ExtendedTooltip name="Health1ExtendedTooltip" id="25"/>
+										</LabelField>
+									</ChildItems>
+								</Page>
+								<Page name="GroupEnergy1" id="33">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Energy</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group energy1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<TitleDataPath>Energy1</TitleDataPath>
+									<ExtendedTooltip name="GroupEnergy1ExtendedTooltip" id="34"/>
+									<ChildItems>
+										<InputField name="Energy1" id="37">
+											<DataPath>Energy1</DataPath>
+											<ContextMenu name="Energy1ContextMenu" id="38"/>
+											<ExtendedTooltip name="Energy1ExtendedTooltip" id="39"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="GroupPlayer2" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group player2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group player2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="GroupPlayer2ExtendedTooltip" id="12"/>
+					<ChildItems>
+						<InputField name="Player2" id="4">
+							<DataPath>Player2</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="Player2ContextMenu" id="5"/>
+							<ExtendedTooltip name="Player2ExtendedTooltip" id="6"/>
+						</InputField>
+						<InputField name="Deck2" id="16">
+							<DataPath>Deck2</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="Deck2ContextMenu" id="17"/>
+							<ExtendedTooltip name="Deck2ExtendedTooltip" id="18"/>
+						</InputField>
+						<Pages name="Player2Info" id="21">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Player 2 info</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Player1 info</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ExtendedTooltip name="Player2InfoExtendedTooltip" id="22"/>
+							<ChildItems>
+								<Page name="PageHealth2" id="31">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Health</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page health1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<TitleDataPath>Health2</TitleDataPath>
+									<ExtendedTooltip name="PageHealth2ExtendedTooltip" id="32"/>
+									<ChildItems>
+										<LabelField name="Health2" id="26">
+											<DataPath>Health2</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Format>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>NZ=0</v8:content>
+												</v8:item>
+											</Format>
+											<Font ref="style:NormalTextFont" height="24" kind="StyleItem"/>
+											<ContextMenu name="Health2ContextMenu" id="27"/>
+											<ExtendedTooltip name="Health2ExtendedTooltip" id="28"/>
+										</LabelField>
+									</ChildItems>
+								</Page>
+								<Page name="GroupEnergy2" id="35">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Energy</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group energy1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<TitleDataPath>Energy2</TitleDataPath>
+									<ExtendedTooltip name="GroupEnergy2ExtendedTooltip" id="36"/>
+									<ChildItems>
+										<InputField name="Energy2" id="40">
+											<DataPath>Energy2</DataPath>
+											<ContextMenu name="Energy2ContextMenu" id="41"/>
+											<ExtendedTooltip name="Energy2ExtendedTooltip" id="42"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Buttons" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ButtonsExtendedTooltip" id="44"/>
+			<ChildItems>
+				<UsualGroup name="GroupButtons1" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group buttons1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group buttons1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="GroupButtons1ExtendedTooltip" id="46"/>
+					<ChildItems>
+						<UsualGroup name="Health1Plus" id="53">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Health1PlusExtendedTooltip" id="54"/>
+							<ChildItems>
+								<Button name="Player1HealthPlus1" id="49">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player1HealthPlus1</CommandName>
+									<ExtendedTooltip name="Player1HealthPlus1ExtendedTooltip" id="50"/>
+								</Button>
+								<Button name="Player1HealthPlus5" id="51">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player1HealthPlus5</CommandName>
+									<ExtendedTooltip name="Player1HealthPlus5ExtendedTooltip" id="52"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Health1Minus" id="55">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Health1MinusExtendedTooltip" id="56"/>
+							<ChildItems>
+								<Button name="Player1HealthMinus1" id="57">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player1HealthMinus1</CommandName>
+									<ExtendedTooltip name="Player1HealthMinus1ExtendedTooltip" id="58"/>
+								</Button>
+								<Button name="Player1HealthMinus5" id="59">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player1HealthMinus5</CommandName>
+									<ExtendedTooltip name="Player1HealthMinus5ExtendedTooltip" id="60"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="GroupButtons2" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group buttons2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group buttons1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="GroupButtons2ExtendedTooltip" id="48"/>
+					<ChildItems>
+						<UsualGroup name="Health2Plus" id="61">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health2 plus</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Health2PlusExtendedTooltip" id="62"/>
+							<ChildItems>
+								<Button name="Player2HealthPlus1" id="69">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player2HealthPlus1</CommandName>
+									<ExtendedTooltip name="Player2HealthPlus1ExtendedTooltip" id="70"/>
+								</Button>
+								<Button name="Player2HealthPlus5" id="71">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player2HealthPlus5</CommandName>
+									<ExtendedTooltip name="Player2HealthPlus5ExtendedTooltip" id="72"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Health2Minus" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health2 plus</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Health1 plus</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Health2MinusExtendedTooltip" id="68"/>
+							<ChildItems>
+								<Button name="Player2HealthMinus1" id="73">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player2HealthMinus1</CommandName>
+									<ExtendedTooltip name="Player2HealthMinus1ExtendedTooltip" id="74"/>
+								</Button>
+								<Button name="Player2HealthMinus5" id="75">
+									<Type>UsualButton</Type>
+									<Width>5</Width>
+									<Height>2</Height>
+									<CommandName>Form.Command.Player2HealthMinus5</CommandName>
+									<ExtendedTooltip name="Player2HealthMinus5ExtendedTooltip" id="76"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Player1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player 1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Players</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Player2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player 2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Players</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Deck1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deck</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Decks</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Deck2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deck</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Decks</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Health1" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Health</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Health2" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Health</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Energy1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Energy</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Energy2" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Energy</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Object" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.HealthCounter</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Player1HealthPlus1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>+1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player1HealthPlus1</Action>
+		</Command>
+		<Command name="Player1HealthPlus5" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>+5</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player1HealthPlus5</Action>
+		</Command>
+		<Command name="Player1HealthMinus1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>-1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player1HealthMinus1</Action>
+		</Command>
+		<Command name="Player1HealthMinus5" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>-5</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player1HealthMinus5</Action>
+		</Command>
+		<Command name="Player2HealthPlus1" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>+1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player2HealthPlus1</Action>
+		</Command>
+		<Command name="Player2HealthPlus5" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>+5</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player2HealthPlus5</Action>
+		</Command>
+		<Command name="Player2HealthMinus1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>-1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player2HealthMinus1</Action>
+		</Command>
+		<Command name="Player2HealthMinus5" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>-5</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Player1 health plus1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Player2HealthMinus5</Action>
+		</Command>
+		<Command name="NewGame" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New game</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New game</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>NewGame</Action>
+		</Command>
+	</Commands>
+</Form>

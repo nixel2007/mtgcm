@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.2">
+	<Item id="652c66db-9e5b-4c01-936e-c33372810b6f">
+		<Name>Player1</Name>
+		<Code>000000001</Code>
+		<Description>Me</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b1416bb3-eb3a-4a7e-9519-82261f8fd354">
+		<Name>Player2</Name>
+		<Code>000000002</Code>
+		<Description>Player 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
