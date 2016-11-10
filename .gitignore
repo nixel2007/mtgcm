@@ -1,0 +1,4 @@
+.sonar/
+.sonarlint/
+build/
+.idea/
