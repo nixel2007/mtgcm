@@ -30,6 +30,10 @@
 					<v8:lang>en</v8:lang>
 					<v8:content>Decks</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Decks</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -80,6 +84,10 @@
 					<v8:lang>en</v8:lang>
 					<v8:content>Deck</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Deck</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -107,6 +115,10 @@
 							<v8:lang>en</v8:lang>
 							<v8:content>Cards</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Cards</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -120,6 +132,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>en</v8:lang>
+									<v8:content>Card</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
 									<v8:content>Card</v8:content>
 								</v8:item>
 							</Synonym>

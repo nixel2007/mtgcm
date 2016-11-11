@@ -67,6 +67,10 @@
 							<v8:lang>en</v8:lang>
 							<v8:content>Number of cards:</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Number of cards:</v8:content>
+						</v8:item>
 					</FooterText>
 					<ContextMenu name="CardsCardContextMenu" id="24"/>
 					<ExtendedTooltip name="CardsCardExtendedTooltip" id="25"/>

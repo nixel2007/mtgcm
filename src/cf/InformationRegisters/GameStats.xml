@@ -38,6 +38,10 @@
 					<v8:lang>en</v8:lang>
 					<v8:content>Game stats</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Game stats</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -67,6 +71,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>en</v8:lang>
+							<v8:content>Deck1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Deck1</v8:content>
 						</v8:item>
 					</Synonym>
@@ -107,6 +115,10 @@
 							<v8:lang>en</v8:lang>
 							<v8:content>Deck2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Deck2</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -145,6 +157,10 @@
 							<v8:lang>en</v8:lang>
 							<v8:content>Won</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Won</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -181,6 +197,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>en</v8:lang>
+							<v8:content>Date</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Date</v8:content>
 						</v8:item>
 					</Synonym>
@@ -227,6 +247,10 @@
 							<v8:lang>en</v8:lang>
 							<v8:content>Player1</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Player1</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -266,6 +290,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>en</v8:lang>
+							<v8:content>Player2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Player2</v8:content>
 						</v8:item>
 					</Synonym>
