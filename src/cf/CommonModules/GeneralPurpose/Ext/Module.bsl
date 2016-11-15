@@ -73,7 +73,7 @@ Function GetQueryWithVT(ValueTable, QueryVTName, Query = Undefined, IndexByNames
 	EndDo; // Each RowVT In VT
 	
 	If ValueIsFilled(IndexByNames) Then
-		QueryText = QueryText + INDEXBYText
+		QueryText = QueryText + INDEXBYText;
 	EndIf; // ValueIsFilled(IndexByNames)
 	
 	Query.Text = Query.Text + QueryText;
