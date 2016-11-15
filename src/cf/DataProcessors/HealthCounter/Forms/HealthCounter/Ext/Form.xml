@@ -87,12 +87,14 @@
 					<ChildItems>
 						<InputField name="Player1" id="1">
 							<DataPath>Player1</DataPath>
+							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="Player1ContextMenu" id="2"/>
 							<ExtendedTooltip name="Player1ExtendedTooltip" id="3"/>
 						</InputField>
 						<InputField name="Deck1" id="13">
 							<DataPath>Deck1</DataPath>
+							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="Deck1ContextMenu" id="14"/>
 							<ExtendedTooltip name="Deck1ExtendedTooltip" id="15"/>
@@ -131,6 +133,7 @@
 											<v8:content>Health</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -159,7 +162,7 @@
 													<v8:content>NZ=0</v8:content>
 												</v8:item>
 											</Format>
-											<Font ref="style:NormalTextFont" height="24" kind="StyleItem"/>
+											<Font ref="style:NormalTextFont" height="28" kind="StyleItem"/>
 											<ContextMenu name="Health1ContextMenu" id="24"/>
 											<ExtendedTooltip name="Health1ExtendedTooltip" id="25"/>
 										</LabelField>
@@ -176,6 +179,7 @@
 											<v8:content>Energy</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -191,6 +195,7 @@
 									<ChildItems>
 										<InputField name="Energy1" id="37">
 											<DataPath>Energy1</DataPath>
+											<TitleLocation>None</TitleLocation>
 											<ContextMenu name="Energy1ContextMenu" id="38"/>
 											<ExtendedTooltip name="Energy1ExtendedTooltip" id="39"/>
 										</InputField>
@@ -228,12 +233,14 @@
 					<ChildItems>
 						<InputField name="Player2" id="4">
 							<DataPath>Player2</DataPath>
+							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="Player2ContextMenu" id="5"/>
 							<ExtendedTooltip name="Player2ExtendedTooltip" id="6"/>
 						</InputField>
 						<InputField name="Deck2" id="16">
 							<DataPath>Deck2</DataPath>
+							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="Deck2ContextMenu" id="17"/>
 							<ExtendedTooltip name="Deck2ExtendedTooltip" id="18"/>
@@ -273,6 +280,7 @@
 											<v8:content>Health</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -301,7 +309,7 @@
 													<v8:content>NZ=0</v8:content>
 												</v8:item>
 											</Format>
-											<Font ref="style:NormalTextFont" height="24" kind="StyleItem"/>
+											<Font ref="style:NormalTextFont" height="28" kind="StyleItem"/>
 											<ContextMenu name="Health2ContextMenu" id="27"/>
 											<ExtendedTooltip name="Health2ExtendedTooltip" id="28"/>
 										</LabelField>
@@ -318,6 +326,7 @@
 											<v8:content>Energy</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -333,6 +342,7 @@
 									<ChildItems>
 										<InputField name="Energy2" id="40">
 											<DataPath>Energy2</DataPath>
+											<TitleLocation>None</TitleLocation>
 											<ContextMenu name="Energy2ContextMenu" id="41"/>
 											<ExtendedTooltip name="Energy2ExtendedTooltip" id="42"/>
 										</InputField>
@@ -426,16 +436,16 @@
 							<ChildItems>
 								<Button name="Player1HealthPlus1" id="49">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player1HealthPlus1</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player1HealthPlus1ExtendedTooltip" id="50"/>
 								</Button>
 								<Button name="Player1HealthPlus5" id="51">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player1HealthPlus5</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player1HealthPlus5ExtendedTooltip" id="52"/>
@@ -470,16 +480,16 @@
 							<ChildItems>
 								<Button name="Player1HealthMinus1" id="57">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player1HealthMinus1</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player1HealthMinus1ExtendedTooltip" id="58"/>
 								</Button>
 								<Button name="Player1HealthMinus5" id="59">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player1HealthMinus5</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player1HealthMinus5ExtendedTooltip" id="60"/>
@@ -544,16 +554,16 @@
 							<ChildItems>
 								<Button name="Player2HealthPlus1" id="69">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player2HealthPlus1</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player2HealthPlus1ExtendedTooltip" id="70"/>
 								</Button>
 								<Button name="Player2HealthPlus5" id="71">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player2HealthPlus5</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player2HealthPlus5ExtendedTooltip" id="72"/>
@@ -588,16 +598,16 @@
 							<ChildItems>
 								<Button name="Player2HealthMinus1" id="73">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player2HealthMinus1</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player2HealthMinus1ExtendedTooltip" id="74"/>
 								</Button>
 								<Button name="Player2HealthMinus5" id="75">
 									<Type>UsualButton</Type>
-									<Width>5</Width>
-									<Height>2</Height>
+									<Width>7</Width>
+									<Height>3</Height>
 									<CommandName>Form.Command.Player2HealthMinus5</CommandName>
 									<BorderColor>#000000</BorderColor>
 									<ExtendedTooltip name="Player2HealthMinus5ExtendedTooltip" id="76"/>
